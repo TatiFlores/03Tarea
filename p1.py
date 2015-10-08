@@ -75,7 +75,7 @@ plt.figure(4)
 plt.plot(y_caso2,v_caso2,'g')
 plt.xlabel('$y (s)$', fontsize=18)
 plt.ylabel('$dy/ds$', fontsize=18)
-plt.savefig("Caso1dydsys.eps")
+plt.savefig("Caso2dydsys.eps")
 
 plt.show()
 plt.draw()
