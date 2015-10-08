@@ -40,8 +40,8 @@ ax.set_aspect('equal')
 
 ax.plot(x, y, z, 'k')
 
-ax.set_xlabel('x')
-ax.set_ylabel('y')
-ax.set_zlabel('z')
+ax.set_xlabel('x', fontsize=18)
+ax.set_ylabel('y', fontsize=18)
+ax.set_zlabel('z', fontsize=18)
 
 plt.show()
